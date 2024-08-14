@@ -1,0 +1,1 @@
+I practised typing in typing.com and was able to achieve 64 wpm after many tries. Eventhough i am not consistent in maintaing the wpm, it ranges between 50-65 as of now. I am spending some time for this everyday and hope to improve the score.
