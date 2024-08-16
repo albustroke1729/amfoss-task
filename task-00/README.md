@@ -1,1 +1,1 @@
-Install Linux Mint as it is beginner friendly. Didnt face any issues.
+Installed Linux Mint as it is beginner friendly. Didnt face any issues.
