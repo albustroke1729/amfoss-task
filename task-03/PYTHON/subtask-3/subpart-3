@@ -1,0 +1,9 @@
+n=int(input("Enter a number : "))
+u=n
+l=n
+for j in range(n+1): #Upper triangle
+    print(u*" ",j*'* ')
+    u=u-1
+for k in range(n+1): #Lower triangle
+    print((k+1)*" ",(l-1)*"* ")
+    l=l-1

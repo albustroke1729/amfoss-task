@@ -1,0 +1,22 @@
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+public class FileCopy {
+    public static void main(String[] args) {
+        String inputFilePath = "/home/albustroke/amfoss-task/task-03/JAVA/subtask-2/input.txt";
+        String outputFilePath = "/home/albustroke/amfoss-task/task-03/JAVA/subtask-2/output.txt";
+        try (
+            FileReader inputFile = new FileReader(inputFilePath);
+            FileWriter outputFile = new FileWriter(outputFilePath)
+        ) {
+            int ch;
+            while ((ch = inputFile.read()) != -1) {
+                outputFile.write(ch);
+            }
+            System.out.println("Successfully copied from input.txt to output.txt.");
+        } catch (IOException e) {
+            System.out.println("An error occurred: ");
+        }
+    }
+}
+
